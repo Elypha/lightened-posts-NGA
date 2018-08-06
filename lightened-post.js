@@ -1,18 +1,19 @@
 // ==UserScript==
-// @name         根据UID屏蔽主题帖及回复（NGA）
-// @name:en      Lightened-posts-NGA
-// @namespace    https://github.com/Elypha/lightened-posts
-// @version      0.2
-// @description  通过指定UID，淡化显示其主题帖及回帖，达到护眼的效果。
-// @author       金光闪闪大萌德@NGA
-// @date         04/08/2018
-// @modified     06/08/2018
-// @supportURL   https://github.com/Elypha/lightened-posts/issues
-// @match        https://bbs.ngacn.cc/thread.php*
-// @match        https://bbs.ngacn.cc/read.php*
-// @match        https://bbs.ngacn.cc/nuke.php?func=ucp&uid=*
-// @grant        none
-// @license      GUN 3.0
+// @name            根据UID屏蔽主题帖及回复（NGA）
+// @name:en         Lightened-posts-NGA
+// @namespace       https://github.com/Elypha/lightened-posts
+// @version         0.2
+// @description     通过指定UID，淡化显示其主题帖及回帖，达到护眼的效果。
+// @description:en  Alter unpleasing posts, according to posters' uid, into a lightened style.
+// @author          金光闪闪大萌德@NGA
+// @date            04/08/2018
+// @modified        06/08/2018
+// @supportURL      https://github.com/Elypha/lightened-posts/issues
+// @match           https://bbs.ngacn.cc/thread.php*
+// @match           https://bbs.ngacn.cc/read.php*
+// @match           https://bbs.ngacn.cc/nuke.php?func=ucp&uid=*
+// @grant           none
+// @license         GUN 3.0
 // ==/UserScript==
 
 //CLEAR
