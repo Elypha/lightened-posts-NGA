@@ -30,7 +30,7 @@ Lightened-posts is compatible with [NGA Auto Pager V2](https://greasyfork.org/us
 
 ## Tips
 
-The data are saved in `localstorage.uid_list`. If you want to wipe them manually please active this line at the beginning of the script, and then come back and refresh the nga page.
+The data are saved in `localstorage.uid_list`. If you want to wipe them manually please active this line at the beginning of the script, save it and then come back and refresh the nga page.
 ```bash
 //CLEAR
 //localstorage.removeItem(uid_list)
