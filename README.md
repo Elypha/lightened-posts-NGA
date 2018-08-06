@@ -9,6 +9,7 @@ Lightened-posts is a javascript for TamperMonkey, which can alter unpleasing pos
 I just came to javascript as soon as I started this script. I would be thankful if you could tell me my problems, and would also be glad if these codes can help you a little bit.
 
 Please post Issues for any problem.
+
 Currently version: 0.2
 
 ## Features
