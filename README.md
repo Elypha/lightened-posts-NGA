@@ -6,6 +6,7 @@
 ## Intro
 
 Lightened-posts is a javascript for TamperMonkey, which can alter unpleasing posts, according to posters' uid, into a lightened style. It works on [the NGA forum](bbs.ngacn.cc).
+
 I just came to javascript as soon as I started this script. I would be thankful if you could tell me my problems, and would also be glad if these codes can help you a little bit.
 
 Please post Issues for any problem.
