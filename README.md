@@ -21,14 +21,14 @@ Lightened-posts is compatible with [NGA Auto Pager V2](https://greasyfork.org/us
 
 4 buttons will be added to the user info page after proper installation, which is currently (https://bbs.ngacn.cc/nuke.php?func=ucp&uid=?).
 
-* Block. Add this user to your block list.
-* Remove. Remove this user from your block list.
-* Input. By clicking this button there would next be an alert messagebox which writes the instructions. Please make sure you fill in the blank in a right way. This helps you to import a series of uids, and is mostly used when you want to restore your settings.
-* View. By clicking this button you would be able to see your whole block list in an alert messagebox. You can do copy (tested on Chrome) to make a backup. Please be noticed that the 00000000, which is at the end of the whole list, is simply an end mark.
+* **Block.** Add this user to your block list.
+* **Remove.** Remove this user from your block list.
+* **Input.** By clicking this button there would next be an alert messagebox which writes the instructions. Please make sure you fill in the blank in a right way. This helps you to import a series of uids, and is mostly used when you want to restore your settings.
+* **View.** By clicking this button you would be able to see your whole block list in an alert messagebox. You can do copy (tested on Chrome) to make a backup. Please be noticed that the 00000000, which is at the end of the whole list, is simply an end mark.
 
 ## Tips
 
-The data are saved in localstorage.uid_list. If you want to wipe them manually please active this line at the beginning of the script, and then come back and refresh the nga page.
+The data are saved in `localstorage.uid_list`. If you want to wipe them manually please active this line at the beginning of the script, and then come back and refresh the nga page.
 ```bash
 //CLEAR
 //localstorage.removeItem(uid_list)
