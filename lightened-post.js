@@ -22,7 +22,7 @@
 //PAGE_SWITCH
 var url = window.location.href
 var switch_url_thread = url.search(/thread\.php/)
-var switch_url_read = url.search(/read\.php/)
+var switch_url_read = url.search(/\/read\.php/)
 var switch_url_nuke = url.search(/nuke\.php/)
 
 if (switch_url_nuke>0){
