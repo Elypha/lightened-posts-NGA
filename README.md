@@ -2,6 +2,8 @@
 ![TamperMonkey v4.6](https://img.shields.io/badge/TamperMonkey-v4.6-brightgreen.svg)
 ![Chrome x64 v67.0](https://img.shields.io/badge/Chrome%20x64-v67.0-brightgreen.svg)
 
+[中文页面](https://greasyfork.org/zh-CN/scripts/370927-%E6%A0%B9%E6%8D%AEuid%E5%B1%8F%E8%94%BD%E4%B8%BB%E9%A2%98%E5%B8%96%E5%8F%8A%E5%9B%9E%E5%A4%8D-nga)
+
 
 ## Intro
 
@@ -12,6 +14,10 @@ I just came to javascript as soon as I started this script. I would be thankful 
 Please post Issues for any problem.
 
 Currently version: 0.2
+
+## Installation
+
+You can get this script on [Greasyfork](https://greasyfork.org/scripts/370927-根据uid屏蔽主题帖及回复-nga), or import this file [lightened-post.js](https://github.com/Elypha/lightened-posts-NGA/blob/master/lightened-post.js) manually.
 
 ## Features
 
