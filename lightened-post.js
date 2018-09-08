@@ -2,16 +2,16 @@
 // @name            根据UID屏蔽主题帖及回复（NGA）
 // @name:en         Lightened-posts-NGA
 // @namespace       https://github.com/Elypha/lightened-posts
-// @version         0.3
+// @version         0.4
 // @description     通过指定UID，淡化显示其主题帖及回帖，达到护眼的效果。
 // @description:en  Alter unpleasing posts, according to posters' uid, into a lightened style.
 // @author          金光闪闪大萌德@NGA
 // @date            04/08/2018
 // @modified        06/08/2018
 // @supportURL      https://github.com/Elypha/lightened-posts/issues
-// @match           https://bbs.nga.cn/thread.php*
-// @match           https://bbs.nga.cn/read.php*
-// @match           https://bbs.nga.cn/nuke.php?func=ucp&uid=*
+// @match           bbs.nga.cn/thread.php*
+// @match           bbs.nga.cn/read.php*
+// @match           bbs.nga.cn/nuke.php?func=ucp&uid=*
 // @grant           none
 // @license         GUN 3.0
 // ==/UserScript==
