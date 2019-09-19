@@ -20,7 +20,7 @@
 // ==/UserScript==
 
 //CLEAR
-//localStorage.removeItem(uid_list);
+//localStorage.removeItem("uid_list");
 
 //PAGE_SWITCH
 var url = window.location.href;
