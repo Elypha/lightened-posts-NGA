@@ -2,22 +2,25 @@
 // @name            根据UID屏蔽主题帖及回复（NGA）
 // @name:en         Lightened-posts-NGA
 // @namespace       https://github.com/Elypha/lightened-posts
-// @version         0.5
+// @version         0.6
 // @description     通过指定UID，淡化显示其主题帖及回帖，达到护眼的效果。
 // @description:en  Alter unpleasing posts, according to posters' uid, into a lightened style.
 // @author          金光闪闪大萌德@NGA
 // @date            04/08/2018
-// @modified        21/10/2018
+// @modified        19/9/2019
 // @supportURL      https://github.com/Elypha/lightened-posts/issues
 // @match           bbs.nga.cn/thread.php*
 // @match           bbs.nga.cn/read.php*
 // @match           bbs.nga.cn/nuke.php?func=ucp&uid=*
+// @match           nga.178.com/thread.php*
+// @match           nga.178.com/read.php*
+// @match           nga.178.com/nuke.php?func=ucp&uid=*
 // @grant           none
 // @license         GUN 3.0
 // ==/UserScript==
 
 //CLEAR
-//localstorage.removeItem(uid_list)
+//localStorage.removeItem(uid_list);
 
 //PAGE_SWITCH
 var url = window.location.href;
@@ -45,7 +48,7 @@ if (switch_url_nuke>0){
             var read_list = localStorage.getItem("uid_list");
 
             var url = window.location.href;
-            var uid = url.replace(/[^\d]/g,'');
+            var uid = url.replace(/^((https|http)?:\/\/)[^\s]+[uid=]/g,'');
 
             var is_exist = read_list.search(uid);
             if (is_exist>=0){
@@ -76,7 +79,7 @@ if (switch_url_nuke>0){
             var read_list = localStorage.getItem("uid_list");
 
             var url = window.location.href;
-            var uid = url.replace(/[^\d]/g,'');
+            var uid = url.replace(/^((https|http)?:\/\/)[^\s]+[uid=]/g,'');
 
             var is_exist = read_list.search(uid);
             if (is_exist>=0){
